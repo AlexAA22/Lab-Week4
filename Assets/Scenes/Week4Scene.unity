@@ -169,7 +169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   studentNumber: 14187088
-  bandReached: 0
+  bandReached: 5
 --- !u!1 &575088272
 GameObject:
   m_ObjectHideFlags: 0
@@ -403,32 +403,13 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1254671729 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 792032151896819049, guid: 94888746c5968bb449c8ff46b8e7f90c,
-    type: 3}
-  m_PrefabInstance: {fileID: 1742505619}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1254671730
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1254671729}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f08eba6b3635b434f850660083422f32, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rend: {fileID: 2576065906756992429, guid: 94888746c5968bb449c8ff46b8e7f90c, type: 3}
 --- !u!1 &1365551278 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9130133306790165921, guid: 1613221b7f8c6a244828913f990faefb,
     type: 3}
   m_PrefabInstance: {fileID: 1903491318}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1365551279
+--- !u!114 &1365551285
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -440,13 +421,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08eba6b3635b434f850660083422f32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rend: {fileID: 1365551281}
---- !u!23 &1365551281 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 6717335137855502924, guid: 1613221b7f8c6a244828913f990faefb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1903491318}
-  m_PrefabAsset: {fileID: 0}
+  rend: {fileID: 6717335137855502924, guid: 1613221b7f8c6a244828913f990faefb, type: 3}
 --- !u!1001 &1742505619
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -596,6 +571,7 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Red
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7130880856421601557, guid: 1613221b7f8c6a244828913f990faefb, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 1613221b7f8c6a244828913f990faefb, type: 3}
